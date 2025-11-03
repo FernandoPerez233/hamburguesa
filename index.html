@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" id="calcularPrecio">
+
+        <div>
+            <label for="cantidad">
+                Cantidad de hamburguesas
+                <br>
+                <input type="number" name="cantidad" id="cantidad" min="1" value="1">
+            </label>
+        </div>
+        <div>
+            <h2>Tamaño</h2>
+            <label for="chico">
+                <input type="radio" name="tam" id="Chico">
+                Chico
+            </label>
+            <br>
+
+            <label for="chico">
+                <input type="radio" name="tam" id="mediano">
+                Mediano
+            </label>
+            <br>
+
+            <label for="chico">
+                <input type="radio" name="tam" id="grande">
+                Grande
+            </label>
+        </div>
+
+        <div>
+            <h2>Tipo de pan</h2>
+            <label for="integral">
+                <input type="radio" name="pan" id="integral">
+                Integral
+            </label>
+            <br>
+
+            <label for="Blanco">
+                <input type="radio" name="pan" id="blanco">
+                Blanco
+            </label>
+            <br>
+
+            <label for="papa">
+                <input type="radio" name="pan" id="papa">
+                Papa
+            </label>
+             <br>
+
+             <label for="parmesano">
+                <input type="radio" name="pan" id="parmesano">
+                Parmesano
+            </label>
+        </div>
+
+         <div>
+            <h2>Ingredientes</h2>
+            <label for="tomate">
+                <input type="checkbox" name="tomate" id="tomate">
+                Tomate
+            </label>
+            <br>
+
+            <label for="lechuga">
+                <input type="checkbox" name="lechuga" id="lechuga">
+                Lechuga
+            </label>
+            <br>
+
+            <label for="queso">
+                <input type="checkbox" name="queso" id="queso">
+                Papa
+            </label>
+             <br>
+
+             <label for="aguacate">
+                <input type="checkbox" name="aguacate" id="aguacate">
+                Aguacate
+            </label>
+            <br>
+
+            <label for="tocino">
+                <input type="checkbox" name="tocino" id="tocino">
+                Aguacate
+            </label>
+            <br>
+
+            <label for="jamon">
+                <input type="checkbox" name="jamon" id="jamon">
+                Jamón
+            </label>
+            <br>
+
+            <label for="pepinillos">
+                <input type="checkbox" name="pepinillos" id="pepinillos">
+                Pepinillos
+            </label>
+            <br>
+
+            <label for="champiñones">
+                <input type="checkbox" name="champiñones" id="champiñones">
+                Champiñones
+            </label>
+            <br>
+
+            <label for="pimientos">
+                <input type="checkbox" name="pimientos" id="pimientos">
+                Pimientos
+            </label>
+            <br>
+            
+            <label for="cebolla">
+                <input type="checkbox" name="cebolla" id="cebolla">
+                Cebolla
+            </label>
+            <br>
+            
+            <label for="Salchicha">
+                    <input type="checkbox" name="salchicha" id="salchicha">
+                    Salchicha
+            </label>                
+        </div>
+            
+        <div>
+            <h2>Combo</h2>
+            <label for="combo">
+                ¿Quieres hacerlo combo? (incluye refresco y papas)
+                <br>
+                <select name="combo" id="combo">
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </label>
+        </div>
+<br>
+        <div>
+            <button type="button">Precio</button>
+            <br>
+            <label for="pagar">
+                Total a pagar
+                <br>
+                <input type="number" name="total" id="total" readonly>
+            </label>
+        </div>
+    </form>
+
+</body>
+<script src="script.js"></script>
+</html>
