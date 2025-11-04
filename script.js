@@ -1,9 +1,28 @@
-var formulario = document.getElementById("cantidad");
+var formulario = document.getElementById("calcularPrecio");
 
-function Calcular{
+function Calcular(){
     // Código para la función Calcular
 
-    // alert("Función Calcular ejecutada"); //
+    var cantidad = document.getElementById("cantidad").value;
 
-    alert(formulario);
+   // var tam = document.getElementById("chico").value;
+
+    var tamaño = formulario.tam.value; 
+
+    alert(tamaño);
+
+    var total = 0;
+
+    if(tamaño == "chico"){
+        total = 100;
+    }
+    else if(tamaño == "mediano"){
+        total = 150;
+    }
+    else if(tamaño == "grande"){
+        total = 200;
+    }
+
+    formulario.total.value = total * cantidad;
+
 }
