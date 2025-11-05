@@ -19,7 +19,10 @@ function Calcular(){
     else if(tamaño == "grande"){
         total = 200;
     }
-
+    else{
+        alert("Seleccione un tamaño válido.");
+        return;
+    }
 
      var pan = formulario.pan.value;
     
@@ -35,7 +38,10 @@ function Calcular(){
     else if(pan == "parmesano"){
         total += 20;
     }
-
+    else{
+        alert("Seleccione un tipo de pan válido.");
+        return;
+    }
 
     var ingredientesCosto = 5;
     
