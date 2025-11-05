@@ -4,10 +4,9 @@ function Calcular(){
     // Código para la función Calcular
 
     var cantidad = document.getElementById("cantidad").value;
-
-   // var tam = document.getElementById("chico").value;
-
+    var pan = formulario.pan.value;
     var tamaño = formulario.tam.value; 
+    
     var total = 0;
 
     if(tamaño == "chico"){
@@ -24,8 +23,6 @@ function Calcular(){
         return;
     }
 
-     var pan = formulario.pan.value;
-    
     if(pan == "integral"){
         total += 10;
     }
